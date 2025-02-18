@@ -25,9 +25,6 @@ Before using this template, ensure that you have the following:
    ```sh
      pnpm install
    ```
-## How can you use it ?
-
-1. Create a markdown file in repository `docs` in front of the other files already present in aborescence or create des dossiers ou autre le plus important est de respecter les regles défini par vitepress pour le routage et de pouvoir accéder à la page génerer par le markdown par la suite and you can edit this file like you want based on vitepress documentation and Markdown 
 ## How can you use it?
 
 1. Create a Markdown file in the `docs` directory, alongside the other existing files in the repository, or organize it within folders as needed. The important part is to follow VitePress routing rules to ensure that the generated page is accessible later. You can then edit this file as needed, following the [VitePress documentation](https://vitepress.dev/) and standard Markdown syntax.

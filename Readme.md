@@ -18,7 +18,7 @@ Before using this template, ensure that you have the following:
 1. Clone this repository or copy the template into your VitePress project.
    ```sh
    git clone https://github.com/ariahariah/template_vitepress_print_page.git
-   cd template_vitepress_print_page.git
+   cd template_vitepress_print_page
    ```
 2. Install all dependencies
 

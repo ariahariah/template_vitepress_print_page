@@ -11,7 +11,7 @@ Before using this template, ensure that you have the following:
 
 - [Node.js](https://nodejs.org/) installed.
 - [VitePress](https://vitepress.vuejs.org/) setup.
-- [VitePress PDF Plugin](https://github.com/your-repo) (or an alternative printing solution).
+- [VitePress PDF Plugin](https://github.com/condorheroblog/vitepress-export-pdf) (or an alternative printing solution).
 
 ## Installation 
 
@@ -25,6 +25,14 @@ Before using this template, ensure that you have the following:
    ```sh
      pnpm install
    ```
+3. Start the Development Server (To visit you website)
+
+Run the following command:
+
+```sh
+
+pnpm run docs:dev
+```
 ## How can you use it?
 
 1. Create a Markdown file in the `docs` directory, alongside the other existing files in the repository, or organize it within folders as needed. The important part is to follow VitePress routing rules to ensure that the generated page is accessible later. You can then edit this file as needed, following the [VitePress documentation](https://vitepress.dev/) and standard Markdown syntax.
@@ -64,7 +72,7 @@ export default defineUserConfig({
 
 After configuring the export settings, run the following command to generate the PDF:
 
-```
+```sh
 pnpm run docs:export
 ```
 

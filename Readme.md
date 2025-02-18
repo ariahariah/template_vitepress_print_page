@@ -33,7 +33,7 @@ Before using this template, ensure that you have the following:
 
 ### Example of usage:
 
-Suppose you create a file named `page121.md` inside the `docs` directory. You can access it via `/ariah`, preceded by your base URL. After that, update the `docs/.vitepress/vitepress-pdf.config.ts` file as follows:
+Suppose you create a file named `page121.md` inside the `docs` directory. You can access it via `/page121`, preceded by your base URL. After that, update the `docs/.vitepress/vitepress-pdf.config.ts` file as follows:
 
 ```ts
 import type { DefaultTheme } from 'vitepress'

@@ -9,9 +9,9 @@ This template is designed for use with [VitePress](https://vitepress.vuejs.org/)
 
 Before using this template, ensure that you have the following:
 
-- [Node.js](https://nodejs.org/) installed.
-- [VitePress](https://vitepress.vuejs.org/) setup.
-- [VitePress PDF Plugin](https://github.com/condorheroblog/vitepress-export-pdf) (or an alternative printing solution).
+- [Node.js](https://nodejs.org/) installed
+- [VitePress](https://vitepress.vuejs.org/) setup
+- [VitePress PDF Plugin](https://github.com/condorheroblog/vitepress-export-pdf)
 
 ## Installation 
 
@@ -44,14 +44,11 @@ pnpm run docs:dev
 Suppose you create a file named `page121.md` inside the `docs` directory. You can access it via `/page121`, preceded by your base URL. After that, update the `docs/.vitepress/vitepress-pdf.config.ts` file as follows:
 
 ```ts
-import type { DefaultTheme } from 'vitepress'
 import { defineUserConfig } from 'vitepress-export-pdf'
-
-import userConfig from './config'
 
 export default defineUserConfig({
   // Output filename
-  outFile: 'api-example.pdf',
+  outFile: 'page121.pdf',
   // Output directory
   outDir: 'pdf-vitepress',
   routePatterns: ['!/**', '!/*', '/page121.html'], 

@@ -1,8 +1,5 @@
 
-import type { DefaultTheme } from 'vitepress'
 import { defineUserConfig } from 'vitepress-export-pdf'
-
-import userConfig from './config'
 
 export default defineUserConfig({
   // Output filename

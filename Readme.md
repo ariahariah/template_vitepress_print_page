@@ -23,7 +23,7 @@ Before using this template, ensure that you have the following:
 2. Install all dependencies
 
    ```sh
-     pnpm install
+     npm install
    ```
 3. Start the Development Server (To visit you website)
 
@@ -31,7 +31,7 @@ Run the following command:
 
 ```sh
 
-pnpm run docs:dev
+npm run docs:dev
 ```
 ## How can you use it?
 
@@ -70,7 +70,7 @@ export default defineUserConfig({
 After configuring the export settings, run the following command to generate the PDF:
 
 ```sh
-pnpm run docs:export
+npm run docs:export
 ```
 
 For more details or specifications, you can visit : 
